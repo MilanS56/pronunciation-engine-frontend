@@ -3,7 +3,7 @@ import Recorder from "./Recorder";
 import PhonemeResult from "./PhonemeResult";
 
 export default function App() {
-  const words = ["Milan","c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+  const words = ["Hello","a","b","c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
   const [index, setIndex] = useState(0);
   const [data, setData] = useState(null);
